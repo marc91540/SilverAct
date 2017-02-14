@@ -1,0 +1,138 @@
+ /*==========================================================================
+#title            : WEBSITE Silver Act
+#description      : Website from PSD
+#author           :  Team Silver Act developers
+#date             : 13/02/2017
+#version          : Constantly on progress
+#usage            : CSS
+#notes            : Only working on search engine
+============================================================================*/
+
+
+
+@font-face {
+    font-family: police;
+    src: url(police/Lemon Tuesday.otf);
+    }
+
+
+ body {
+	    margin:0;
+	    padding:0;
+	    background-image: url("picture/photo.png");
+	    background-repeat:no-repeat;
+	    background-size:100%;
+   
+    }
+
+
+ ul {
+        list-style-type: none;
+        margin-top: 70px;
+        margin-right: 150px;
+        margin-left: 120px;
+        padding: 10px 10px 10px 120px;
+        overflow: hidden;
+        background-color: #616264;
+    }
+
+
+li {
+	    float:left;
+	    border-left: 1px solid #fff;
+	    height:40px;
+	    width:auto;
+
+   }
+
+    
+li a {
+        
+        display: block;
+        color: white;
+        text-align: center;
+        margin-left:30px;
+        margin-right:20px;
+        padding: 13px;
+        text-decoration: none;
+     }
+
+ li a:hover {
+        background-color: #111111;
+           
+       }
+
+
+#logo { 
+     position:absolute;
+     top:17px;
+     left:63px;
+    
+       }
+
+
+#objet {
+     position:absolute;
+     top: 80px;
+     left: 1080px;
+        }     
+
+
+
+#map {
+    position:absolute;
+    top:700px;
+
+
+}
+
+#bottom {
+     position:absolute;
+     background-color:#3783a8;
+     background-position: center;
+     width:100%;
+     height:205px;
+     top:1200px;
+     z-index:2;
+        }
+
+#bottom h1{
+
+    text-align:center;
+    font-family:Lemon Tuesday;
+    font-size:40px;
+    color:#fff;
+
+}
+
+#bottom p{
+    text-align:center;
+    color:#fff;
+    font-size:25px;
+    margin-top:40px;
+    border: 4px solid #fff;
+    width:497px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#lastblock{
+     position:absolute;
+     background-color:#616264;
+     background-position: center;
+     width:100%;
+     height:97px;
+     top:1400px;
+     z-index:2;
+}
+
+#lastblock p{
+   text-align:center;
+   color:#fff;
+   font-size:15px;
+}
+
+
+
+
+
