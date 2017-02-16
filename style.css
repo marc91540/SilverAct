@@ -6,6 +6,9 @@
 #version          : v2
 #notes            : Only working on search engine
 ============================================================================*/
+html { 
+    width:100%; height:100%;
+}
 
 @font-face {
     font-family:Avenir Next;
@@ -15,12 +18,15 @@
 @font-face {
     font-family: Lemon Tuesday;
     src: url(police/Lemon Tuesday.otf);
-    }
+}
+
 
 
  body {
-	    margin:0;
-	    padding:0;
+	    margin:0px;
+	    padding:0px;
+        width:100%; 
+        height:100%;
 	    background-image: url("IMG/photo.png");
 	    background-repeat:no-repeat;
 	    background-size:100%;
@@ -28,44 +34,58 @@
     }
 
 
- ul {
+#header ul {
         list-style-type: none;
         margin-top:0;
         padding: 10px 10px 10px 190px;
         overflow: hidden;
         background-color: #fff;
+
+
     }
 
 
-li {
-	    float:left;
-	    border-right: 1px solid #111;
-	    height:40px;
-	    width:auto;
+#header li {
+	   float:left;
+       border-right:1px solid #111 ;
+       padding-right:25px;
+
 
    }
 
     
-li a {
+#header li a {
         
         display: block;
         font-family: Avenir Next;
-        font-weight:bolder;
+        font-weight:bold;
         color: #111;
-        text-align: center;
-        margin-left:30px;
+
+        margin-left:40px;
         margin-right:20px;
-        padding: 13px;
+        padding:13px;
         text-decoration: none;
      }
 
- li a:hover {
-        background-color: #111111;
+ #header li a:hover {
+        background-color: #b2f7ef;
            
        }
 
 
-#logo { 
+
+#header .blue{
+    position:absolute;
+    top:0;
+    right:0;
+    height: 66px;
+    width: 100px;
+    background:#3783a8;
+
+}
+
+
+#header #logo { 
      position:absolute;
      top:17px;
      left:63px;
@@ -73,10 +93,10 @@ li a {
        }
 
 
-#objet {
+#header #objet {
      position:absolute;
-     top: 80px;
-     left: 1080px;
+     top: 18px;
+     right:33px;
         }     
 
 
@@ -84,19 +104,19 @@ li a {
 #acti {
     position:absolute;
     width: 100%; 
-    height: 299px;
-    margin-top: 500px;
+    height: 0px;
+    margin-top: 47%;
     background-color: #fff;
-    
+    z-index:-5;
 }
 
 #acti span{
     position: relative;
     display: inline-block;
-    border-radius:50%;
     width: 30%;
-    height: 380px;
-    margin: -6% 1.5% 0% 1.5%;
+    height: 350px;
+    margin: -2% 1.5% 0% 1.5%;
+    z-index: 20;
 }
 
 #acti img {
@@ -104,6 +124,7 @@ li a {
     height: 25%;
     margin-left: 43%;
     margin-top: 6%;
+    z-index: 5;
 }
 
 .title {
@@ -115,7 +136,7 @@ li a {
 
 .txt {
     font-family:Lemon Tuesday;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: 8%;
     font-size: 150%;
     text-align: center;
@@ -139,23 +160,26 @@ li a {
 
 #act1 {
     background-color: #df9454;
+    z-index:5;
 }
 
 #act2 {
     background-color: #9f71aa;
+    z-index:5;
 }
 
 #act3 {
     background-color: #ecc54f;
+    z-index:5;
 }
 
 
 
 #map {
     position:absolute;
-    top:122%;
+    top:980px;
     width:100%;
-    z-index:-2;
+    z-index:-10;
 }
 
 #bottom {
@@ -164,13 +188,14 @@ li a {
      background-position: center;
      width:100%;
      height:205px;
-     top:1404px;
+     top:1509px;
      z-index:2;
         }
 
 #bottom h1{
 
     text-align:center;
+    margin-top:30px;
     font-family:Lemon Tuesday;
     font-size:40px;
     color:#fff;
@@ -190,23 +215,32 @@ li a {
      
 }
 
-#lastblock {
+#end {
      position:absolute;
      background-color:#616264;
      background-position: center;
      width:100%;
      height:97px;
-     top:1609px;
+     top:1713px;
      z-index:2;
 }
 
-#lastblock p{
-   text-align:center;
+#end h1{
+
+   margin-top:20px;
+   margin-left:550px;
    color:#fff;
-   font-size:15px;
+   font-size:20px;
 }
 
-#lastblock .share{
+#end p{
+
+    margin-top:20px;
+    color:#fff;
+    font-size:15px;
+}
+
+#end .share{
     position:absolute;
     top:30px;
     left:700px;
