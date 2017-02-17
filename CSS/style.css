@@ -31,10 +31,10 @@ html {
 	   
       }
 
-#header #picture {
+ #header #picture {
 
         position:absolute;
-        background: url('IMG/photo.png');
+        background: url('../IMG/photo.png');
         background-repeat:no-repeat;
         height:740px;
         background-size:cover;
@@ -42,7 +42,7 @@ html {
         z-index:-10;
 }
 
-#header ul {
+ #header ul {
         list-style-type: none;
         margin-top:0;
         padding: 10px 10px 10px 190px;
@@ -53,20 +53,18 @@ html {
     }
 
 
-#header li {
+ #header li {
 	   float:left;
-       border-right:1px solid #111 ;
+       border-right: 1px solid #111 ;
        padding-right:25px;
-
-
-   }
+}
 
     
 #header li a {
         
         display: block;
         font-family: Avenir Next;
-        font-weight:bold;
+        font-weight:bolder;
         color: #111;
         margin-left:40px;
         margin-right:20px;
@@ -74,18 +72,18 @@ html {
         text-decoration: none;
      }
 
- #header li a:hover {
-        background-color: #b2f7ef;
+#header li a:hover {
+        color: #14d11e;
            
        }
 
 
 
-#header .blue{
+ #header .blue{
     position:absolute;
     top:0;
     right:0;
-    height: 66px;
+    height: 63px;
     width: 100px;
     background:#3783a8;
 
@@ -94,7 +92,7 @@ html {
 
 #header #logo { 
      position:absolute;
-     top:17px;
+     top:13px;
      left:63px;
     
        }
@@ -112,7 +110,7 @@ html {
     position:absolute;
     width: 100%; 
     height: 0px;
-    margin-top: 44em;
+    margin-top: 42em;
     background-color: #fff;
     z-index:-5;
 }
@@ -167,24 +165,24 @@ html {
 
 #act1 {
     background-color: #df9454;
-    z-index:5;
+
 }
 
 #act2 {
     background-color: #9f71aa;
-    z-index:5;
+  
 }
 
 #act3 {
     background-color: #ecc54f;
-    z-index:5;
+   
 }
 
 
 
 #position {
     position:absolute;
-    background:url('IMG/map.png');
+    background:url('../IMG/map.png');
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
