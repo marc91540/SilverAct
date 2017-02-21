@@ -128,7 +128,7 @@ body {
     display: inline-block;
     width: 20em;
     height: 350px;
-    margin: -4% 3% 0% 4.5%; 
+    margin: -4% 3% 0% 4%; 
     transition: width 1s, height 1s, top 1s, left 1s, margin 1s;
     z-index: 20;
 
