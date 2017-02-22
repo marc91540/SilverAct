@@ -52,7 +52,7 @@ body {
  #header ul {
         list-style-type: none;
         margin-top:0;
-        padding: 10px 10px 10px 190px;
+        padding: 29px 10px 13px 188px;
         overflow: hidden;
         background-color: #fff;
 
@@ -61,14 +61,13 @@ body {
 
 
  #header li {
-	   float:left;
+	    float:left;
        border-right: 1px solid #111 ;
-       padding-right:25px;
+       padding-right:39px;
 }
 
     
 #header li a {
-        
         display: block;
         font-family: Avenir Next;
         font-weight:bolder;
@@ -90,7 +89,7 @@ body {
     position:absolute;
     top:0;
     right:0;
-    height: 63px;
+    height: 85px;
     width: 100px;
     background:#3783a8;
 
@@ -100,14 +99,14 @@ body {
 #header #logo { 
      position:absolute;
      top:13px;
-     left:63px;
+     left:50px;
     
        }
 
 
 #header #objet {
      position:absolute;
-     top: 18px;
+     top: 23px;
      right:33px;
         }     
 
@@ -126,16 +125,16 @@ body {
 #acti span{
     position: relative;
     display: inline-block;
-    width: 20em;
+    width: 26%;
     height: 350px;
-    margin: -4% 3% 0% 4%; 
+    margin: -4% 2% 0% 4%; 
     transition: width 1s, height 1s, top 1s, left 1s, margin 1s;
     z-index: 20;
 
 }
 
 #acti span:hover {
-    width: 20em;
+    width: 26%;
     height: 500px;
     
 
@@ -201,11 +200,33 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    top:980px;
-    height:567px;
+    top:61.2rem;
+    height:36em;
     z-index:-10;
+
 }
 
+#pos1{
+    position:absolute;
+    top:7em;
+    left:53em;
+    
+}
+#pos2{
+    position:absolute;
+    top:20em;
+    left:30em;
+ 
+}
+.rectangle1{
+  position:absolute;
+  background-color:blue;
+  height:20px;
+  width:200px;
+  top:300px;
+  left:200px;
+
+}
 
 #bottom {
      position:absolute;
