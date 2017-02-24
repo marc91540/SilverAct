@@ -1,0 +1,188 @@
+ /*==========================================================================
+#title            : WEBSITE Silver Act
+#description      : website v2 silveract
+#author           :  Team Silver Act developers 
+#date             : 13/02/2017
+#version          : v2
+#notes            : Only working on search engine
+============================================================================*/
+
+html { 
+    width:100%; height:100%;
+}
+
+@font-face {
+    font-family:Avenir Next;
+    src:url(../police/AvenirNextLTPro-Regular.otf),
+    url("../police/Avenir Next.eot") format("eot"),
+    url("../police/Avenir Next.woff") format("woff"),
+    url("../police/Avenir Next.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: Lemon Tuesday;
+    src: url("../police/Lemon Tuesday.otf"),
+    url("../police/Lemon Tuesday.eot") format("eot"),
+    url("..police/Lemon Tuesday.woff") format("woff")
+    url("../police/Lemon Tuesday.ttf") format("truetype");
+}
+
+
+
+body {
+        margin:0px;
+        padding:0px;
+        width:100%; 
+        height:100%;
+       
+      }
+
+ #header #block1 {
+
+        position:absolute;
+        background: url('../Activités/image/photo1.png');
+        background-repeat:no-repeat;
+        height:701px;
+        background-size:cover;
+        width:100%;
+        z-index:-10;
+}
+
+#header #block1 h2{
+    margin-top:250px;
+    margin-left:70px;
+
+}
+#header #block1 p{
+    font-size:20px;
+    margin-left:70px;
+
+
+}
+
+
+ #header ul {
+        list-style-type: none;
+        margin-top:0;
+        padding: 29px 10px 13px 188px;
+        overflow: hidden;
+        background-color: #fff;
+
+
+    }
+
+
+ #header li {
+        float:left;
+       border-right: 1px solid #111 ;
+       padding-right:39px;
+}
+
+    
+#header li a {
+        display: block;
+        font-family: Avenir Next;
+        font-weight:bolder;
+        color: #111;
+        margin-left:40px;
+        margin-right:20px;
+        padding:13px;
+        text-decoration: none;
+     }
+
+#header li a:hover {
+        color: #14d11e;
+           
+       }
+
+
+
+ #header .blue{
+    position:absolute;
+    top:0;
+    right:0;
+    height: 85px;
+    width: 100px;
+    background:#3783a8;
+
+}
+
+
+#header #logo { 
+     position:absolute;
+     top:13px;
+     left:50px;
+    
+       }
+
+
+#header #objet {
+     position:absolute;
+     top: 23px;
+     right:33px;
+        }     
+
+#block2{
+        position:absolute;
+        background: url('../Activités/image/photo2.png');
+        background-repeat:no-repeat;
+        top:701px;
+        height:672px;
+        background-size:cover;
+        width:100%;
+        z-index:-10;
+
+}
+#block2 h2{
+    margin-top:180px;
+    margin-left:1000px;
+}
+#block2 p{
+    font-size:20px;
+    margin-left:1000px;
+}
+#block3{
+        position:absolute;
+        background: url('../Activités/image/photo3.png');
+        background-repeat:no-repeat;
+        top:1373px;
+        height:672px;
+        background-size:cover;
+        width:100%;
+        z-index:-10;
+
+}
+
+#end {
+     position:absolute;
+     background-color:#616264;
+     background-position: center;
+     width:100%;
+     height:97px;
+     top:2045px;
+     z-index:2;
+}
+
+#end h1{
+
+   margin-top:20px;
+   margin-left:550px;
+   color:#fff;
+   font-size:20px;
+}
+
+#end p{
+
+    margin-top:20px;
+    color:#fff;
+    font-size:15px;
+}
+
+#end .share{
+    position:absolute;
+    top:30px;
+    left:700px;
+}
+
+
