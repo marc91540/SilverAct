@@ -12,7 +12,7 @@ html {
 }
 
 @font-face {
-    font-family:Avenir Next;
+    font-family: 'Avenir Next';
     src:url(../police/AvenirNextLTPro-Regular.otf),
     url("../police/Avenir Next.eot") format("eot"),
     url("../police/Avenir Next.woff") format("woff"),
@@ -21,7 +21,7 @@ html {
 
 
 @font-face {
-    font-family: Lemon Tuesday;
+    font-family: 'Lemon Tuesday' ;
     src: url("../police/Lemon Tuesday.otf"),
     url("../police/Lemon Tuesday.eot") format("eot"),
     url("..police/Lemon Tuesday.woff") format("woff")
@@ -70,7 +70,7 @@ body {
 #header li a {
         
         display: block;
-        font-family: Avenir Next;
+        font-family: 'Avenir Next' ;
         font-weight:bolder;
         color: #111;
         margin-left:40px;
