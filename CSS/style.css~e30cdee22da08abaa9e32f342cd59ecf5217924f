@@ -28,78 +28,62 @@ html {
 	    padding:0px;
         width:100%; 
         height:100%;
-  }
-
+	   
+      }
 
  #header #picture {
 
         position:absolute;
-        background: url('IMG/photo.png');
-        background-repeat:no-repeat;
-        height:740px;
-        background-size:cover;
-        width:100%;
-        z-index:-10;
-}
->>>>>>> e30cdee22da08abaa9e32f342cd59ecf5217924f:style.css
-
-#header #picture {
-        position:absolute;
         background: url('../IMG/photo.png');
         background-repeat:no-repeat;
-        width:100%;
         height:740px;
         background-size:cover;
+        width:100%;
         z-index:-10;
 }
 
-#header ul {
+ #header ul {
         list-style-type: none;
         margin-top:0;
-        padding: 10px 3px 14px 246px;
+        padding: 10px 10px 10px 190px;
         overflow: hidden;
         background-color: #fff;
-        clear:both;
 
 
     }
 
 
-#header li {
+ #header li {
 	   float:left;
-       border-right:1px solid #111 ;
+       border-right: 1px solid #111 ;
        padding-right:25px;
-
-
-   }
+}
 
     
 #header li a {
         
         display: block;
         font-family: Avenir Next;
-        font-weight:bold;
-        font-size:15px;
+        font-weight:bolder;
         color: #111;
         margin-left:40px;
         margin-right:20px;
         padding:13px;
         text-decoration: none;
-
      }
 
 #header li a:hover {
-     color: #b2f7ef;
+        color: #14d11e;
            
        }
 
 
 
-#header .blue{
+ #header .blue{
     position:absolute;
     top:0;
     right:0;
-    height: 66px;
+    height: 63px;
     width: 100px;
     background:#3783a8;
 
@@ -108,10 +92,10 @@ html {
 
 #header #logo { 
      position:absolute;
-     top:17px;
+     top:13px;
      left:63px;
     
-   }
+       }
 
 
 #header #objet {
@@ -125,11 +109,10 @@ html {
 #acti {
     position:absolute;
     width: 100%; 
-    height: -1px;
-    margin-top: 47%;
+    height: 0px;
+    margin-top: 42em;
     background-color: #fff;
     z-index:-5;
-
 }
 
 #acti span{
@@ -137,8 +120,7 @@ html {
     display: inline-block;
     width: 30%;
     height: 350px;
-    margin: 0% 1.5% 0% 1.5%;
-     border-radius:50%;
+    margin: -2% 1.5% 0% 1.5%;
     z-index: 20;
 }
 
@@ -177,40 +159,37 @@ html {
 #acti a {
     padding: 1% 5%;
     border: solid white 6px;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
 
 #act1 {
     background-color: #df9454;
-    z-index:5;
+
 }
 
 #act2 {
     background-color: #9f71aa;
-    z-index:5;
+  
 }
 
 #act3 {
     background-color: #ecc54f;
-    z-index:5;
+   
 }
 
 
 
-
-
-.position {
+#position {
     position:absolute;
     background:url('../IMG/map.png');
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    top:140%;
+    top:980px;
     height:567px;
     z-index:-10;
 }
-
 
 #bottom {
      position:absolute;
@@ -238,7 +217,7 @@ html {
     font-size:25px;
     margin-top:40px;
     border: 4px solid #fff;
-    border-radius:10px;
+    border-radius:10%;
     width:497px;
     margin-right:auto;
     margin-left:auto;
@@ -270,7 +249,7 @@ html {
     font-size:15px;
 }
 
-#end .share {
+#end .share{
     position:absolute;
     top:30px;
     left:700px;
@@ -279,13 +258,4 @@ html {
 
 
 
-    
-
-
-    
-
-
-
-
-   
 
