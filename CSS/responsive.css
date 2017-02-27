@@ -1,0 +1,60 @@
+
+
+@media screen and (max-width: 1145px){
+
+ 
+   #header li a{
+        margin-left:15%;
+        margin-right:15%;
+        
+}
+
+    #header #picture{
+    margin-top:10%;
+    background-size:100%;
+
+
+  }
+
+    #acti span {
+
+      height:300px;
+
+      
+  }
+
+    
+
+@media screen and  (max-width: 890px){
+    
+    #header li {
+        float:none;
+      }
+    #header #picture{
+        margin-top:25%;
+    }
+   
+
+}
+@media screen and  (max-width: 800px){
+   
+  
+ #acti span{
+    width:50%;
+    margin-left:25%;
+    margin-top:1%;
+    height:310px;
+    top:-30px;
+       }
+
+#map{
+  margin-top:60%;
+  }
+}
+#bottom{
+  margin-top:25%;
+
+}
+#end{
+  margin-top:25%;
+}
