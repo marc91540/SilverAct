@@ -11,24 +11,22 @@ html {
 }
 
 @font-face {
-<<<<<<< HEAD
+
     font-family: 'Avenir Next';
     src:url(../police/AvenirNextLTPro-Regular.otf),
     url("../police/Avenir Next.eot") format("eot"),
     url("../police/Avenir Next.woff") format("woff"),
     url("../police/Avenir Next.ttf") format("truetype");
-=======
     
 }
 
 @font-face {
-<<<<<<< HEAD
+
     font-family: 'Lemon Tuesday' ;
     src: url("../police/Lemon Tuesday.otf"),
     url("../police/Lemon Tuesday.eot") format("eot"),
     url("..police/Lemon Tuesday.woff") format("woff")
     url("../police/Lemon Tuesday.ttf") format("truetype");
-=======
     
 }
 
@@ -77,11 +75,8 @@ html {
 #header li a {
         
         display: block;
-<<<<<<< HEAD
         font-family: 'Avenir Next' ;
         font-weight:bolder;
-=======
-        
         color: #111;
         margin-left:40px;
         margin-right:20px;
