@@ -1,0 +1,40 @@
+#contact {
+	width: 100%;
+	height: auto;
+	background-color: #5b5b5b;
+
+	text-align: center;
+	padding: 1% 0% 1% 0%;
+    color: #b8b9b8;
+}
+
+#navig img {
+	padding: 1% 0% 0% 2%;
+	float: left;
+}
+
+#navig ul {
+	margin: 1% 37% 0% 0%;
+    float: right;
+}
+
+#navig ul li {
+	text-align: center;
+	display: inline-block;
+}
+
+#navig ul li a {
+	font-size: 150%;
+	text-decoration: none;
+	color: #5b5b5b;
+}
+
+
+
+#profil img{    
+	background-color: #3182ab;
+    width: 2%;
+    height: auto;
+    padding: 2% 3% 2% 3%;
+    float: right;
+}
