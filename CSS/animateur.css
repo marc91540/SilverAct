@@ -1,3 +1,34 @@
+html { 
+    width:100%; height:100%;
+}
+
+body {
+	    margin:0px;
+	    padding:0px;
+        width:100%; 
+        height:100%;
+  }
+
+@font-face {
+
+    font-family: 'Avenir Next';
+    src:url(../police/AvenirNextLTPro-Regular.otf),
+    url("../police/Avenir Next.eot") format("eot"),
+    url("../police/Avenir Next.woff") format("woff"),
+    url("../police/Avenir Next.ttf") format("truetype");
+    
+}
+
+@font-face {
+
+    font-family: 'Lemon Tuesday' ;
+    src: url("../police/Lemon Tuesday.otf"),
+    url("../police/Lemon Tuesday.eot") format("eot"),
+    url("..police/Lemon Tuesday.woff") format("woff")
+    url("../police/Lemon Tuesday.ttf") format("truetype");
+    
+}
+
 #contact {
 	width: 100%;
 	height: auto;
@@ -8,31 +39,189 @@
     color: #b8b9b8;
 }
 
-#navig a img {
-	
+
+#header ul {
+        list-style-type: none;
+        margin-top:0;
+        padding: 10px 3px 14px 246px;
+        overflow: hidden;
+        background-color: #fff;
+        clear:both;
+
+
+    }
+
+
+#header li {
+	   float:left;
+       border-right:1px solid #111 ;
+       padding-right:25px;
+
+
+   }
+
+    
+#header li a {
+        
+        display: block;
+        font-family: 'Avenir Next' ;
+        font-weight:bolder;
+        color: #111;
+        margin-left:40px;
+        margin-right:20px;
+        padding:13px;
+        text-decoration: none;
+
+     }
+
+#header li a:hover {
+     color: #b2f7ef;
+           
+       }
+
+
+
+#header .blue{
+    position:absolute;
+    top:6.5%;
+    right:0;
+    height: 66px;
+    width: 100px;
+    background:#3783a8;
+
 }
 
-#navig ul img {
-	margin: -14%;
+
+img#logo { 
+     position:absolute;
+     top:6.5%;
+     left:63px;
+    
+   }
+
+
+#header #objet {
+     position:absolute;
+     top: 10%;
+     right:33px;
+}     
+
+#animateur {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+    float: left;
 }
 
-#navig ul {
-    margin: 1% 26% 0% 0%;
+#animateur span {
+    margin: 5% 0% 5% 0%;
+	float: right;
+	width: 75%;
+	height: auto;
+}
+
+#animateur span img {
+    float: left;
+    margin-left: -15%;
+	width: 30%;
+	height: auto;
+}
+
+#animateur .tittle {
+    font-family: 'Avenir Next';
+    color: white;
+    font-size: 200%;
+    float: left;
+    margin: 4% 0% 0% 12%;
+}
+
+#animateur .metier {    
+    font-family: 'Avenir Next';
+    font-size: 130%;
+    margin: 10% 0% 0% 27%;
+    color: white;
+}
+
+#animateur p {
+    font-family: 'Avenir Next';
+    font-size: 130%;
+    color: white;
+    margin: 2% 0% 0% 26%;
+}
+
+#animateur ul {
+
+}
+
+#animateur ul li {
+    display: inline-block;
+}
+
+#animateur ul li img {
+    width: 60%;
+    height: auto;
+}
+
+#anim1{
+    background: #9f71aa;
+}
+
+#anim2 {
+    background: #df9454;
+}
+
+#anim3 {
+    background: #ecc54f;
+}
+
+#anim4 {
+    background: #9f71aa;
+}
+
+#end {
+    overflow: hidden;
+    background: #616264;
+    width: 100%; 
+    height: auto;
+    text-align: center;
+}  
+
+#end #footer ul {
+    display: block;
+    float: left;
+    margin: 1% 0% 1% 37%;
+}
+
+#end #footer li {
+    color: white;
+}
+
+#end #footer ul li:nth-child(1) {
+    font-size: 150%;
+}
+
+#end #footer ul li:nth-child(2) {
+    font-size: 100%;
+}
+
+.social {
+    display: inline-block;
+    float: left;
+    margin: 1% 0% 0% 1%;
+}
+
+#mention ul {
+    float: right;
+    margin: 1% 0% 0% 0%;
+}
+
+#mention li a{
+    color: #fefffe;
+}
+
+#mention ul li:nth-child(2){
+    font-size: 100%;
     float: right;
 }
-
-#navig ul li {
-	float: left;
-}
-
-#navig ul li a {
-	display: block;
-    color: #5b5b5b;
-    text-align: center;
-    text-decoration: none;
-    font-size: 150%;
-    padding: 29px;
-}
-
 
 
